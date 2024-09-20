@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+:root{
+    /* === Colors === */
+    --Desaturated-Red: hsl(0, 36%, 70%);
+    --Soft-Red: hsl(0, 93%, 68%);
+    --Dark-Grayish-Red: hsl(0, 6%, 24%);
+    /* Linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%) */
+    --white-start : hsl(0, 0%, 100%);
+    --White-end : hsl(0, 100%, 98%);
+    /* Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%) */
+    --pink-start : hsl(0, 80%, 86%);
+    --pink-end : hsl(0, 74%, 74%);
+
+    /* === Fonts === */
+    --main-font: 16px
+}
