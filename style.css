@@ -134,6 +134,12 @@ body{
     font-weight: 500;
     text-decoration: none;
 }
+.error--visible{
+    display: flex;
+}
+.error--red{
+    border-color: var(--Soft-Red);
+}
 @media(min-width: 1024px){
     body{
         grid-template-columns: calc( calc(100vw - 76.25vh - 386px) * 0.5) auto calc( calc(100vw - 76.25vh - 386px) * 0.5) 76.25vh;
