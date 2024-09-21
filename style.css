@@ -148,7 +148,10 @@ body{
             ". header . image"
             ". main . image"
             ". footer . image";
-        background: linear-gradient( 135deg, var(--White-start), var(--White-end));
+        background: url('./images/bg-pattern-raw.svg'), linear-gradient( 135deg, var(--White-start), var(--White-end));
+        background-repeat: no-repeat, no-repeat;
+        background-size: auto 100%, 100%; 
+        background-position: left top, top left;
     }
     .header{
         padding: 8.125vh 0 17vh 0 ;
@@ -220,6 +223,5 @@ body{
             ". header . image"
             ". main . image"
             ". footer . image";
-        background: linear-gradient( 135deg, var(--White-start), var(--White-end));
     }
 }
